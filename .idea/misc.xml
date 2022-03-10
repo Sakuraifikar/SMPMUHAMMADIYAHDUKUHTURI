@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_datalengkap.xml" value="0.3838582677165354" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_datapelengkap.xml" value="0.25" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_datarinci.xml" value="0.20416666666666666" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_ekskul.xml" value="0.20416666666666666" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_fasilitas.xml" value="0.20416666666666666" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_galeri.xml" value="0.25" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_guru.xml" value="0.20416666666666666" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_identitas_sklh.xml" value="0.19010416666666666" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_perpus.xml" value="0.20416666666666666" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_prestasi.xml" value="0.20416666666666666" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/activity_profil.xml" value="0.1" />
+        <entry key="..\:/SMPMUHAMMADIYAHDUKUHTURI/app/src/main/res/layout/slider_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/drawable/vie_bg.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_ekskul.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_fasilitas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_futsal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_galeri.xml" value="0.22" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_guru.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_osis.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_pmr.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_pramuka.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_prestasi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_profil.xml" value="0.18" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/activity_splashscreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LKS-02/StudioProjects/SMP_MUHAMMADIYAH_DUKUHTURI-master/app/src/main/res/layout/slider_item.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
