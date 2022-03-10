@@ -10,19 +10,37 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.SMPMUHAMMADIYAHDUKUHTURI">
         <activity
-                android:name=".EkskulActivity"
+                android:name=".FutsalActivity"
                 android:exported="false" />
         <activity
                 android:name=".PmrActivity"
-                android:exported="false" />
-        <activity
-                android:name=".FutsalActivity"
                 android:exported="false" />
         <activity
                 android:name=".PramukaActivity"
                 android:exported="false" />
         <activity
                 android:name=".OsisActivity"
+                android:exported="false" />
+        <activity
+                android:name=".AlbumkegiatanActivity"
+                android:exported="false" />
+        <activity
+                android:name=".AlbumfutsalActivity"
+                android:exported="false" />
+        <activity
+                android:name=".AlbumdrumbandActivity"
+                android:exported="false" />
+        <activity
+                android:name=".Buku9Activity"
+                android:exported="false" />
+        <activity
+                android:name=".Buku8Activity"
+                android:exported="false" />
+        <activity
+                android:name=".Buku7Activity"
+                android:exported="false" />
+        <activity
+                android:name=".EkskulActivity"
                 android:exported="false" />
         <activity
                 android:name=".MainActivity"
