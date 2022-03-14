@@ -64,6 +64,7 @@
                             <androidx.cardview.widget.CardView
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
+                                    android:onClick="osis"
                                     android:layout_rowWeight="1"
                                     android:layout_columnWeight="1"
                                     android:layout_marginLeft="12dp"
@@ -104,6 +105,7 @@
                             <androidx.cardview.widget.CardView
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
+                                    android:onClick="pramuka"
                                     android:layout_rowWeight="1"
                                     android:layout_columnWeight="1"
                                     android:layout_marginLeft="12dp"
@@ -135,7 +137,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
-                                            android:text="ORGANISASI OSIS">
+                                            android:text="ORGANISASI PRAMUKA">
 
                                     </TextView>
                                 </LinearLayout>
@@ -144,6 +146,7 @@
                             <androidx.cardview.widget.CardView
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
+                                    android:onClick="pmr"
                                     android:layout_rowWeight="1"
                                     android:layout_columnWeight="1"
                                     android:layout_marginLeft="12dp"
@@ -175,7 +178,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
-                                            android:text="ORGANISASI OSIS">
+                                            android:text="ORGANISASI PMR">
 
                                     </TextView>
                                 </LinearLayout>
@@ -184,6 +187,7 @@
                             <androidx.cardview.widget.CardView
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
+                                    android:onClick="futsal"
                                     android:layout_rowWeight="1"
                                     android:layout_columnWeight="1"
                                     android:layout_marginLeft="12dp"
@@ -215,7 +219,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
-                                            android:text="ORGANISASI OSIS">
+                                            android:text="ORGANISASI FUTSAL">
 
                                     </TextView>
                                 </LinearLayout>

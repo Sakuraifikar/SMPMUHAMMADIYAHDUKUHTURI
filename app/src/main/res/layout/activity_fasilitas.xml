@@ -84,7 +84,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginLeft="12dp"
                                             android:layout_marginTop="60dp"
-                                            android:src="@drawable/perpustakaan18"/>
+                                            android:src="@drawable/masjiddarusalam"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -102,7 +102,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginTop="60dp"
                                             android:layout_marginRight="12dp"
-                                            android:src="@drawable/hadrohmuhri"/>
+                                            android:src="@drawable/masjid"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -182,7 +182,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginLeft="12dp"
                                             android:layout_marginTop="60dp"
-                                            android:src="@drawable/galeritomoki"/>
+                                            android:src="@drawable/labkomputer"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -200,7 +200,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginTop="60dp"
                                             android:layout_marginRight="12dp"
-                                            android:src="@drawable/three"/>
+                                            android:src="@drawable/labipa18"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
