@@ -27,7 +27,7 @@
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/black"
-                android:text="SMK YPT KOTA TEGAL"/>
+                android:text="SMP MUHAMMADIYAH DUKUHTURI"/>
 
     </LinearLayout>
 
