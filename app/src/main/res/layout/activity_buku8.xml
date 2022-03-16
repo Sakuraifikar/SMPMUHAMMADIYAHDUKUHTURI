@@ -86,6 +86,7 @@
                                     android:background="@color/white"
                                     android:clickable="true"
                                     android:cursorVisible="true"
+                                    android:onClick="a1"
                                     android:textColor="@color/white"
                                     android:text="BACA"/>
 
@@ -122,6 +123,7 @@
                                     android:background="@color/white"
                                     android:clickable="true"
                                     android:cursorVisible="true"
+                                    android:onClick="a2"
                                     android:textColor="@color/white"
                                     android:text="BACA"/>
 
@@ -147,7 +149,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="IPA"/>
+                                    android:text="BAHASA INGGRIS"/>
 
                             <Button
                                     android:layout_width="match_parent"
@@ -158,6 +160,7 @@
                                     android:background="@color/white"
                                     android:clickable="true"
                                     android:cursorVisible="true"
+                                    android:onClick="a3"
                                     android:textColor="@color/white"
                                     android:text="BACA"/>
 
@@ -248,7 +251,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="BAHASA INGGRIS"/>
+                                    android:text="IPA"/>
 
                             <Button
                                     android:layout_width="match_parent"
