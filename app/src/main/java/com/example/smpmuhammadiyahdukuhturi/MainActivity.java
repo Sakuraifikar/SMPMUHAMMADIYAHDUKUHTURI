@@ -3,6 +3,7 @@ package com.example.smpmuhammadiyahdukuhturi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -61,5 +62,27 @@ public class MainActivity extends AppCompatActivity {
     public void prestasi(View view) {
         Intent intent = new Intent(MainActivity.this, PrestasiActivity.class);
         startActivity(intent);
+    }
+
+    public void FB(View view) {
+        goToUrl("https://www.facebook.com/smp.karanganyar");
+    }
+
+    public void YT(View view) {
+        goToUrl("https://www.youtube.com/channel/UCQUIQ8c2GeoStv1DT1Uf1mA/featured");
+    }
+
+    public void GGL(View view) {
+        goToUrl("https://hayusakola.com/view/smp-muhammadiyah-dukuhturi");
+    }
+
+    public void IG(View view) {
+        goToUrl("https://www.instagram.com/smp_muhari/");
+    }
+
+    private void goToUrl(String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
     }
 }
