@@ -102,7 +102,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginTop="60dp"
                                             android:layout_marginRight="12dp"
-                                            android:src="@drawable/masjid"/>
+                                            android:src="@drawable/masjiddarusalam"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -200,7 +200,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginTop="60dp"
                                             android:layout_marginRight="12dp"
-                                            android:src="@drawable/labipa18"/>
+                                            android:src="@drawable/labkomputer"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
