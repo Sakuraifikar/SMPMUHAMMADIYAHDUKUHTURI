@@ -89,7 +89,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="NAMA : SMP MUHAMMADIYAH DUKUHTURI"
                             android:textColor="@color/white"
@@ -99,7 +99,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="NPSN : 20325356"
                             android:textColor="@color/white"
@@ -109,7 +109,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Status : Swasta"
                             android:textColor="@color/white"
@@ -119,7 +119,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Status Kepemilikan : Yayasan"
                             android:textColor="@color/white"
@@ -129,7 +129,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="SK Pendirian Sekolah : E.2/02.041/VII.PP/84/85"
                             android:textColor="@color/white"
@@ -139,7 +139,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Tanggal SK Pendirian : 1980-06-05"
                             android:textColor="@color/white"
@@ -149,7 +149,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="SK Izin Operasional : 030/10.3/I82"
                             android:textColor="@color/white"
@@ -159,7 +159,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Tanggal SK Izin Operasional : 1982-01-07"
                             android:textColor="@color/white"
@@ -169,7 +169,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Alamat : Jl. KH. Jueni Karanganyar"
                             android:textColor="@color/white"
@@ -179,7 +179,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Desa / Kelurahan : Karanganyar"
                             android:textColor="@color/white"
@@ -189,7 +189,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Kecamatan : Kec. Dukuhturi"
                             android:textColor="@color/white"
@@ -199,7 +199,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Kabupaten : Kab. Tegal"
                             android:textColor="@color/white"
@@ -209,7 +209,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Provinsi : Prov. Jawa Tengah"
                             android:textColor="@color/white"
@@ -219,8 +219,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
                             android:text="Kode Pos : 52192"
                             android:textColor="@color/white"
                             android:textSize="12sp"
@@ -263,8 +264,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
                             android:text="Tujuan pendidikan tingkat satuan pendidikan dasar mengacu pada tujuan umum pendidikan dasar yaitu meletakkan dasar kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta keterampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut. Sedangkan secara khusus, sesuai dengan visi dan misi  sekolah."
                             android:textColor="@color/white"
                             android:textSize="12sp"
@@ -307,7 +309,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Visi :"
                             android:textColor="#000"
@@ -317,8 +319,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
                             android:text="“ Mewujudkan insan yang CEKATAN ( Cerdas, Kreatif, Aktif, Takwa dan Andal )” menuju Sekolah Berwawasan Global dan Lingkungan”."
                             android:textColor="#000"
                             android:textSize="12sp"
@@ -327,7 +330,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Misi :"
                             android:textColor="#000"
@@ -337,7 +340,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="1. Mengembangkan nilai-nilai keagamaam dan perilaku akhlak mulia untuk mendasari sikap kedisiplinan"
                             android:textColor="#000"
@@ -347,7 +350,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="2. Mengembangkan Kurikulum 2013 dan Silabus Kurikulum 2013 yang berkarakter bangsa serta berorientasi pada pencapaian Prestasi Maksimal  pada Siswa dan Sekolah"
                             android:textColor="#000"
@@ -357,7 +360,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="3. Melaksanakan 7 K (Kebersihan, Keindahan, Kerindangan, Ketertiban, Keamanan, Kekeluargaan dan Kondusif) yang berwawasan lingkungan"
                             android:textColor="#000"
@@ -367,8 +370,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
                             android:text="4. Melakukan penggalangan partisipasi masyarakat dan komite sekolah untuk meningkatkan kualitas sekolah"
                             android:textColor="#000"
                             android:textSize="12sp"
@@ -410,7 +414,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Nama Bank : BPD JAWA TENGAH"
                             android:textColor="#000"
@@ -420,7 +424,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Cabang KCP/Unit : BPD JAWA TENGAH CABANG SLAWI"
                             android:textColor="#000"
@@ -430,7 +434,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Rekening Atas Nama : SMPMUHAMMADIYAHDUKUHTURI"
                             android:textColor="#000"
@@ -440,7 +444,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Sertifikasi ISO : Belum Bersertifikat"
                             android:textColor="#000"
@@ -450,7 +454,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Sumber Listrik : PLN"
                             android:textColor="#000"
@@ -460,7 +464,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="Daya Listrik : 2200"
                             android:textColor="#000"
@@ -470,8 +474,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
                             android:text="Akses Internet : Tidak Ada"
                             android:textColor="#000"
                             android:textSize="12sp"
