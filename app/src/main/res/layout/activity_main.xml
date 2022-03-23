@@ -80,6 +80,7 @@
                     android:layout_weight="1">
 
                     <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#FF9800"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
@@ -103,7 +104,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="PROFIL"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
@@ -117,6 +118,7 @@
                     android:layout_weight="1">
 
                     <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#F44336"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
@@ -140,7 +142,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="PERPUS"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
@@ -165,6 +167,7 @@
                     android:layout_weight="1">
 
                     <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#FFEB3B"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
@@ -188,7 +191,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="GALERY"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
@@ -202,6 +205,7 @@
                     android:layout_weight="1">
 
                     <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#00BCD4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
@@ -225,7 +229,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="FASILITAS"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
@@ -250,6 +254,7 @@
                     android:layout_weight="1">
 
                     <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#009688"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
@@ -273,7 +278,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="EKSKUL"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
@@ -287,6 +292,7 @@
                     android:layout_weight="1">
 
                     <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#CDDC39"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
@@ -310,7 +316,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="GURU"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>

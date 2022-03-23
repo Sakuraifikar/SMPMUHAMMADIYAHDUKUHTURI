@@ -62,6 +62,7 @@
                                 android:columnOrderPreserved="false">
                             <!--                            PEMBUKA MENU 1-->
                             <androidx.cardview.widget.CardView
+                                    app:cardBackgroundColor="#009688"
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
                                     android:onClick="buku7"
@@ -96,6 +97,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
+                                            android:textColor="@color/white"
                                             android:text="Buku Kelas VII">
 
                                     </TextView>
@@ -103,6 +105,7 @@
                             </androidx.cardview.widget.CardView>
                             <!--                            PEMBUKA MENU 2-->
                             <androidx.cardview.widget.CardView
+                                    app:cardBackgroundColor="#FFC107"
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
                                     android:onClick="buku8"
@@ -137,6 +140,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
+                                            android:textColor="@color/white"
                                             android:text="Buku Kelas VIII">
 
                                     </TextView>
@@ -144,6 +148,7 @@
                             </androidx.cardview.widget.CardView>
                             <!--                            PEMBUKA MENU 3-->
                             <androidx.cardview.widget.CardView
+                                    app:cardBackgroundColor="#FF9800"
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
                                     android:onClick="buku9"
@@ -178,6 +183,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
+                                            android:textColor="@color/white"
                                             android:text="Buku Kelas IX">
 
                                     </TextView>
