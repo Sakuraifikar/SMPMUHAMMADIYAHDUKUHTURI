@@ -27,6 +27,16 @@
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/black"
+                android:text="FIKAR ARFANI RAMADHAN"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
                 android:text="SMP MUHAMMADIYAH DUKUHTURI"/>
         <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="250dp"
