@@ -111,66 +111,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="Status : Swasta"
-                            android:textColor="@color/white"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Status Kepemilikan : Yayasan"
-                            android:textColor="@color/white"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="SK Pendirian Sekolah : E.2/02.041/VII.PP/84/85"
-                            android:textColor="@color/white"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Tanggal SK Pendirian : 1980-06-05"
-                            android:textColor="@color/white"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="SK Izin Operasional : 030/10.3/I82"
-                            android:textColor="@color/white"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Tanggal SK Izin Operasional : 1982-01-07"
-                            android:textColor="@color/white"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
                             android:text="Alamat : Jl. KH. Jueni Karanganyar"
                             android:textColor="@color/white"
                             android:textSize="12sp"
@@ -322,7 +262,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
-                            android:text="“ Mewujudkan insan yang CEKATAN ( Cerdas, Kreatif, Aktif, Takwa dan Andal )” menuju Sekolah Berwawasan Global dan Lingkungan”."
+                            android:text="'Terwujudnya sekolah yang islami yang dijiwai oleh nilai-nilai budaya dan karakter bangsa serta menguasai IPTEK yang dilandasi IMTAQ.'"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -342,7 +282,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="1. Mengembangkan nilai-nilai keagamaam dan perilaku akhlak mulia untuk mendasari sikap kedisiplinan"
+                            android:text="a. Mendorong aktivitas dan kreatifitas seluruh komponen sekolah terutama para siswa yang optimal."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -352,7 +292,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="2. Mengembangkan Kurikulum 2013 dan Silabus Kurikulum 2013 yang berkarakter bangsa serta berorientasi pada pencapaian Prestasi Maksimal  pada Siswa dan Sekolah"
+                            android:text="b. Mengoptimalkan pembelajaran dalam rangka meningkatkan keterampilan siswa supaya mereka memiliki prestasi yang dapat dibanggakan secara optimal."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -362,7 +302,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="3. Melaksanakan 7 K (Kebersihan, Keindahan, Kerindangan, Ketertiban, Keamanan, Kekeluargaan dan Kondusif) yang berwawasan lingkungan"
+                            android:text="c. Melaksanakan pembelajaran dan bimbingan secara efektif sehingga kecerdasan siswa terus diasah agar terciptanya kecerdasan intelektual dan emosionalyang mantap."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -372,116 +312,30 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:layout_marginBottom="12dp"
-                            android:text="4. Melakukan penggalangan partisipasi masyarakat dan komite sekolah untuk meningkatkan kualitas sekolah"
-                            android:textColor="#000"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="#8BC34A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginRight="12dp"
-                    android:layout_marginBottom="12dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
-                        android:layout_marginTop="20dp"
-                        android:textColor="#000"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:text="DATA LENGKAP"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="75dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Nama Bank : BPD JAWA TENGAH"
+                            android:text="d. Antusias terhadap perkembangan dan kemajuan ilmu agama, Ilmu pengetahuan dan teknologi."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Cabang KCP/Unit : BPD JAWA TENGAH CABANG SLAWI"
-                            android:textColor="#000"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp"
+                                android:text="e. Menanamkan cinta kebersihan dan keindahan semua komponen sekolah."
+                                android:textColor="#000"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
 
                         <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Rekening Atas Nama : SMPMUHAMMADIYAHDUKUHTURI"
-                            android:textColor="#000"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Sertifikasi ISO : Belum Bersertifikat"
-                            android:textColor="#000"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Sumber Listrik : PLN"
-                            android:textColor="#000"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:text="Daya Listrik : 2200"
-                            android:textColor="#000"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:layout_marginBottom="12dp"
-                            android:text="Akses Internet : Tidak Ada"
-                            android:textColor="#000"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp"
+                                android:text="f. Penghayaatan yang dalam dan pengamalan yang tinggi terhadap ajaran agama (Religius) sehingga terciptanya kematangan dalam berpikir dan bertindak."
+                                android:textColor="#000"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
 
                     </LinearLayout>
 
