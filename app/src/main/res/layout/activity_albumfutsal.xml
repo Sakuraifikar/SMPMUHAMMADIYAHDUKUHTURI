@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".AlbumfutsalActivity"
-        android:background="@drawable/perpustakaan18">
+        android:background="@drawable/ig">
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            android:src="@drawable/hadrohmuhri" />
+                            android:src="@drawable/hw" />
                 </LinearLayout>
                 <!--                TUTUP GAMBAR 1-->
 
@@ -68,7 +68,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="5dp"
-                        android:text="ALBUM FUTSAL"
+                        android:text="ALBUM HW"
                         android:textColor="#000"
                         android:textSize="10sp"
                         android:textStyle="bold" />

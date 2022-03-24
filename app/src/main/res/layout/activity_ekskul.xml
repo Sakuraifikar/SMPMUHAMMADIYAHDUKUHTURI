@@ -131,7 +131,7 @@
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="10dp"
                                             android:layout_marginTop="10dp"
-                                            android:src="@drawable/logopramuka">
+                                            android:src="@drawable/logohw">
 
                                     </ImageView>
 
@@ -141,7 +141,7 @@
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
                                             android:textColor="@color/white"
-                                            android:text="ORGANISASI PRAMUKA">
+                                            android:text="ORGANISASI HW">
 
                                     </TextView>
                                 </LinearLayout>

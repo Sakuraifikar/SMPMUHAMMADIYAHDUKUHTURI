@@ -22,7 +22,7 @@
             <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/organisasipramuka"
+                    android:src="@drawable/hw"
                     android:scaleType="fitXY"
                     android:layout_marginBottom="15dp"
                     app:layout_collapseMode="parallax"/>
@@ -75,7 +75,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:layout_marginTop="12dp"
-                            android:src="@drawable/logopramuka"/>
+                            android:src="@drawable/logohw"/>
 
                     <TextView
                             android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
                             android:textColor="#000"
                             android:textSize="18sp"
                             android:textStyle="bold"
-                            android:text="ORGANISASI PRAMUKA"/>
+                            android:text="ORGANISASI HW"/>
 
                     <TextView
                             android:layout_width="wrap_content"
@@ -93,7 +93,7 @@
                             android:layout_marginLeft="80dp"
                             android:layout_marginTop="42dp"
                             android:textSize="18sp"
-                            android:text="SMK YPT KOTA TEGAL"/>
+                            android:text="SMP MUHAMMADIYAH DUKUHTURI"/>
 
                     <LinearLayout
                             android:layout_width="wrap_content"
