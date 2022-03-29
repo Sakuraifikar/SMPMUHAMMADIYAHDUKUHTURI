@@ -94,7 +94,7 @@
                                     android:layout_marginTop="15dp"
                                     android:textSize="15sp"
                                     android:textStyle="bold"
-                                    android:text="PENGERTIAN PMR"
+                                    android:text="PENGERTIAN BTQ"
                                     android:textColor="#000"/>
                             <TextView
                                     android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
                                     android:layout_marginTop="15dp"
                                     android:textSize="15sp"
                                     android:textStyle="bold"
-                                    android:text="TUJUAN DAN TUGAS PMR"
+                                    android:text="TUJUAN DAN TUGAS BTQ"
                                     android:textColor="#000"/>
                             <TextView
                                     android:layout_width="wrap_content"
