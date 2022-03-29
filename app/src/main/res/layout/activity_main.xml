@@ -345,34 +345,21 @@
                     app:cardCornerRadius="255dp"
                     app:cardElevation="20dp">
 
-                <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
-                        android:layout_margin="10dp"
-                        android:onClick="GGL"
-                        android:src="@drawable/goog" />
 
                 <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_margin="10dp"
-                        android:onClick="FB"
-                        android:src="@drawable/fb" />
-
-                <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_margin="10dp"
-                        android:onClick="YT"
-                        android:src="@drawable/yt" />
-
-                <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:layout_margin="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
                         android:onClick="IG"
                         android:src="@drawable/ig" />
 
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="INSTAGRAM"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
 
             </LinearLayout>
 
