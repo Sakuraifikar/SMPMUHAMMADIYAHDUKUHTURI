@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".AlbumfutsalActivity"
-        android:background="@drawable/ig">
+        android:background="@drawable/luarang">
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -39,6 +39,22 @@
                             android:src="@drawable/hw" />
                 </LinearLayout>
                 <!--                TUTUP GAMBAR 1-->
+
+                <!--                GAMBAR 2-->
+                <LinearLayout
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/hw2" />
+                </LinearLayout>
+                <!--                TUTUP GAMBAR 2-->
+
 
                 <!--                JARAK ANTAR GAMBAR-->
                 <RelativeLayout
@@ -80,7 +96,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="5dp"
-                        android:text="LOMBA FUTSAL 2019"
+                        android:text="Gerakan Kepanduan Hizbul Wathan adalah salah satu organisasi otonom di lingkungan Persyarikatan Muhammadiyah. Ortom Muhammadiyah lainnya adalah: 'Aisyiyah, Nasyiatul 'Aisyiyah, Pemuda Muhammadiyah, Ikatan Mahasiswa Muhammadiyah, Tapak Suci Putera Muhammadiyah, dan Ikatan Pelajar Muhammadiyah."
                         android:textColor="#000"
                         android:textSize="10sp" />
 

@@ -173,51 +173,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                     app:cardBackgroundColor="@color/teal_200"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginRight="12dp"
-                    android:layout_marginBottom="12dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
-                        android:layout_marginTop="20dp"
-                        android:textColor="@color/white"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:text="TUJUAN SEKOLAH"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="75dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="12dp"
-                            android:layout_marginRight="12dp"
-                            android:layout_marginBottom="12dp"
-                            android:text="Tujuan pendidikan tingkat satuan pendidikan dasar mengacu pada tujuan umum pendidikan dasar yaitu meletakkan dasar kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta keterampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut. Sedangkan secara khusus, sesuai dengan visi dan misi  sekolah."
-                            android:textColor="@color/white"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-
-                <androidx.cardview.widget.CardView
                     app:cardBackgroundColor="#FFEB3B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

@@ -83,7 +83,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginTop="10dp"
-                                android:src="@drawable/one">
+                                android:src="@drawable/finger">
 
                         </ImageView>
 
@@ -126,7 +126,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginTop="10dp"
-                                android:src="@drawable/two">
+                                android:src="@drawable/dua">
 
                         </ImageView>
 
@@ -136,7 +136,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="50dp"
                                 android:textColor="@color/white"
-                                android:text="ALBUM FUTSAL">
+                                android:text="ALBUM HW">
 
                         </TextView>
                     </LinearLayout>

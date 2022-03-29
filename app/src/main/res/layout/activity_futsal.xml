@@ -6,162 +6,221 @@
         android:layout_height="match_parent"
         tools:context=".FutsalActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="188dp"
-            android:fitsSystemWindows="true"
-            android:theme="@style/Theme.Design">
-        <com.google.android.material.appbar.CollapsingToolbarLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:fitsSystemWindows="true"
-                app:contentScrim="?attr/colorPrimary"
-                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-                android:id="@+id/collapsing_tool">
+            android:layout_height="match_parent">
 
-            <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/organisasifutsal"
-                    android:scaleType="fitXY"
-                    android:layout_marginBottom="15dp"
-                    app:layout_collapseMode="parallax"/>
-            <androidx.appcompat.widget.Toolbar
-                    android:id="@+id/toolar"
-                    android:layout_width="match_parent"
-                    android:layout_height="?attr/actionBarSize"
-                    app:layout_collapseMode="pin"/>
-
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <androidx.core.widget.NestedScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
-
-        <!--        awal isi-->
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="15dp">
-
-            <GridLayout
-                    android:id="@+id/mainGrid"
+                android:orientation="vertical">
+            <!--            Header-->
+            <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_weight="9"
-                    android:alignmentMode="alignMargins"
-                    android:columnCount="1"
-                    android:columnOrderPreserved="false"
-                    android:rowCount="2">
+                    android:layout_height="wrap_content">
 
-                <androidx.cardview.widget.CardView
+            </RelativeLayout>
+            <!--            Header-->
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/tapaksuci" />
+            </RelativeLayout>
+            <!--        awal isi-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp">
+
+                <GridLayout
+                        android:id="@+id/mainGrid"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginTop="3dp"
-                        android:layout_marginRight="12dp"
-                        android:layout_marginBottom="12dp"
-                        app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="9"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="1"
+                        android:columnOrderPreserved="false"
+                        android:rowCount="2"
+                        tools:ignore="MissingConstraints">
 
-                    <ImageView
-                            android:layout_width="55dp"
-                            android:layout_height="55dp"
+                    <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
                             android:layout_marginRight="12dp"
-                            android:layout_marginTop="12dp"
-                            android:src="@drawable/logofutsal"/>
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
 
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="80dp"
-                            android:layout_marginTop="20dp"
-                            android:textColor="#000"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:text="ORGANISASI FUTSAL"/>
-
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="80dp"
-                            android:layout_marginTop="42dp"
-                            android:textSize="18sp"
-                            android:text="SMP MUHAMMADIYAH DUKUHTURI"/>
-
-                    <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="75dp"
-                            android:orientation="vertical">
+                        <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginTop="12dp"
+                                android:src="@drawable/tapaksuci"/>
 
                         <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="5dp"
-                                android:layout_marginRight="5dp"
+                                android:layout_marginLeft="80dp"
+                                android:layout_marginTop="20dp"
+                                android:text="ORGANISASI PMR"
                                 android:textColor="#000"
-                                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Lectus quam id leo in vitae turpis massa sed elementum. Auctor eu augue ut lectus arcu bibendum at varius. Velit dignissim sodales ut eu. Et ligula ullamcorper malesuada proin. Quisque sagittis purus sit amet volutpat consequat mauris. Accumsan tortor posuere ac ut consequat semper viverra. Libero enim sed faucibus turpis in. Tincidunt eget nullam non nisi est sit amet.
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
 
-Tellus id interdum velit laoreet. Rhoncus dolor purus non enim praesent elementum facilisis leo. Purus ut faucibus pulvinar elementum. Condimentum mattis pellentesque id nibh tortor id. Elementum eu facilisis sed odio morbi quis. Eget felis eget nunc lobortis mattis. Cursus turpis massa tincidunt dui ut ornare. Magna etiam tempor orci eu lobortis. In aliquam sem fringilla ut morbi tincidunt augue interdum velit. Sit amet tellus cras adipiscing enim. Purus sit amet luctus venenatis lectus magna fringilla urna. Mus mauris vitae ultricies leo integer."
-                                >
 
-                        </TextView>
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="75dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
 
-                        <TextView
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:text="PENGERTIAN PMR"
+                                    android:textColor="#000"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:text="Secara Organis" />
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu, setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS), yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian/alat dari organisasi lain yang ada di luar sekolah." />
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:text="Secara Fungsional" />
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="Dalam rangka pelaksanaan kebijaksanaan pendidikan, khususnya dibidang pembinaan kesiswaan, arti yang terkandung lebih jauh dalam pengertian OSIS adalah sebagai salah satu dari empat jalur pembinaan kesiswaan, di samping ketiga jalur yang lain yaitu: latihan kepemimpinan, ekstrakurikuler, dan wawasan Wiyatamandala."/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp">
+
+                        <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="5dp"
-                                android:layout_marginRight="5dp"
-                                android:textColor="#000"
-                                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Lectus quam id leo in vitae turpis massa sed elementum. Auctor eu augue ut lectus arcu bibendum at varius. Velit dignissim sodales ut eu. Et ligula ullamcorper malesuada proin. Quisque sagittis purus sit amet volutpat consequat mauris. Accumsan tortor posuere ac ut consequat semper viverra. Libero enim sed faucibus turpis in. Tincidunt eget nullam non nisi est sit amet.
+                                android:orientation="vertical">
 
-Tellus id interdum velit laoreet. Rhoncus dolor purus non enim praesent elementum facilisis leo. Purus ut faucibus pulvinar elementum. Condimentum mattis pellentesque id nibh tortor id. Elementum eu facilisis sed odio morbi quis. Eget felis eget nunc lobortis mattis. Cursus turpis massa tincidunt dui ut ornare. Magna etiam tempor orci eu lobortis. In aliquam sem fringilla ut morbi tincidunt augue interdum velit. Sit amet tellus cras adipiscing enim. Purus sit amet luctus venenatis lectus magna fringilla urna. Mus mauris vitae ultricies leo integer."
-                                />
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:text="TUJUAN DAN TUGAS PMR"
+                                    android:textColor="#000"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:text="Tujuan Osis" />
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="1. Meningkatkan generasi penerus yang beriman dan bertaqwa"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="2. Memahami, menghargai lingkungan hidup dan nilai-nilai moral dalam mengambil keputusan yang tepat"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="3. Membangun landasan kepribadian yang kuat dan menghargai HAM dalam kontek kemajuan budaya bangsa"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="4. Membangun, mengembangkan wawasan kebangsaan dan rasa cinta tanah air dalam era globalisasi"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="5. Memperdalam sikap sportif, jujur, disiplin, bertanggung jawab, dan kerjasama secara mandiri, berpikir logis dan demokratis"/>
 
-                        <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="5dp"
-                                android:layout_marginRight="12dp"
-                                android:textSize="12sp"
-                                android:textStyle="bold"
-                                android:text="Jadwal pertemuan : "
-                                android:textColor="#000"/>
+                        </LinearLayout>
 
-                        <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="5dp"
-                                android:layout_marginRight="12dp"
-                                android:textSize="12sp"
-                                android:textStyle="bold"
-                                android:text="Hari Senin dan Rabu"
-                                android:textColor="#000"/>
+                    </androidx.cardview.widget.CardView>
+                </GridLayout>
 
-                        <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="5dp"
-                                android:layout_marginRight="12dp"
-                                android:textSize="12sp"
-                                android:textStyle="bold"
-                                android:text="Pukul 13.45 - 14.45"
-                                android:textColor="#000"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </GridLayout>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.core.widget.NestedScrollView>
-
+        </LinearLayout>
+    </ScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

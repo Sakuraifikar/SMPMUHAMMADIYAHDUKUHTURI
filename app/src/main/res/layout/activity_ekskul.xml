@@ -21,25 +21,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="195dp">
 
-
-                    <com.smarteist.autoimageslider.SliderView
-                            android:id="@+id/image_slider"
-                            android:layout_width="match_parent"
-                            android:layout_height="188dp"
-                            app:sliderAnimationDuration="1200"
-                            app:sliderAutoCycleDirection="back_and_forth"
-                            app:sliderAutoCycleEnabled="true"
-                            app:sliderIndicatorAnimationDuration="700"
-                            app:sliderIndicatorGravity="center_horizontal|bottom"
-                            app:sliderIndicatorMargin="15dp"
-                            app:sliderIndicatorOrientation="horizontal"
-                            app:sliderIndicatorPadding="3dp"
-                            app:sliderIndicatorRadius="2dp"
-                            app:sliderIndicatorSelectedColor="#5A5A5A"
-                            app:sliderIndicatorUnselectedColor="#FFF"
-                            app:sliderScrollTimeInSec="2"
-                            app:sliderStartAutoCycle="true" />
-
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="210dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/drumband2" />
                 </RelativeLayout>
 
                 <androidx.core.widget.NestedScrollView
@@ -62,7 +48,7 @@
                                 android:columnOrderPreserved="false">
                             <!--                            PEMBUKA MENU 1-->
                             <androidx.cardview.widget.CardView
-                                    app:cardBackgroundColor="#FFC107"
+                                    app:cardBackgroundColor="#673AB7"
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
                                     android:onClick="osis"
@@ -88,7 +74,7 @@
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="10dp"
                                             android:layout_marginTop="10dp"
-                                            android:src="@drawable/logoosis">
+                                            android:src="@drawable/aku1">
 
                                     </ImageView>
 
@@ -98,14 +84,14 @@
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
                                             android:textColor="@color/white"
-                                            android:text="ORGANISASI OSIS">
+                                            android:text="DRUMBAND">
 
                                     </TextView>
                                 </LinearLayout>
                             </androidx.cardview.widget.CardView>
                             <!--                            PEMBUKA MENU 2-->
                             <androidx.cardview.widget.CardView
-                                    app:cardBackgroundColor="#FF9800"
+                                    app:cardBackgroundColor="#4CAF50"
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
                                     android:onClick="pramuka"
@@ -131,7 +117,7 @@
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="10dp"
                                             android:layout_marginTop="10dp"
-                                            android:src="@drawable/logohw">
+                                            android:src="@drawable/aku4">
 
                                     </ImageView>
 
@@ -148,7 +134,7 @@
                             </androidx.cardview.widget.CardView>
                             <!--                            PEMBUKA MENU 3-->
                             <androidx.cardview.widget.CardView
-                                    app:cardBackgroundColor="#2196F3"
+                                    app:cardBackgroundColor="#8BC34A"
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
                                     android:onClick="pmr"
@@ -174,7 +160,7 @@
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="10dp"
                                             android:layout_marginTop="10dp"
-                                            android:src="@drawable/logopmr">
+                                            android:src="@drawable/aku2">
 
                                     </ImageView>
 
@@ -184,14 +170,14 @@
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
                                             android:textColor="@color/white"
-                                            android:text="ORGANISASI PMR">
+                                            android:text="ORGANISASI BTQ">
 
                                     </TextView>
                                 </LinearLayout>
                             </androidx.cardview.widget.CardView>
                             <!--                            PEMBUKA MENU 4-->
                             <androidx.cardview.widget.CardView
-                                    app:cardBackgroundColor="#3F51B5"
+                                    app:cardBackgroundColor="#FF5722"
                                     android:layout_width="150dp"
                                     android:layout_height="150dp"
                                     android:onClick="futsal"
@@ -217,7 +203,7 @@
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="10dp"
                                             android:layout_marginTop="10dp"
-                                            android:src="@drawable/logofutsal">
+                                            android:src="@drawable/aku3">
 
                                     </ImageView>
 
@@ -227,7 +213,7 @@
                                             android:layout_gravity="center"
                                             android:layout_marginLeft="50dp"
                                             android:textColor="@color/white"
-                                            android:text="ORGANISASI FUTSAL">
+                                            android:text="TAPAK SUCI">
 
                                     </TextView>
                                 </LinearLayout>

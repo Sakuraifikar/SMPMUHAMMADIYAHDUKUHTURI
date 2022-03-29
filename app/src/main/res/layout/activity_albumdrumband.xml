@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".AlbumdrumbandActivity"
-        android:background="@drawable/bukuindo1">
+        android:background="@drawable/luarang">
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -40,6 +40,22 @@
                 </LinearLayout>
                 <!--                TUTUP GAMBAR 1-->
 
+                <!--                GAMBAR 2-->
+                <LinearLayout
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/drumband2" />
+                </LinearLayout>
+                <!--                TUTUP GAMBAR 2-->
+
+
                 <!--                JARAK ANTAR GAMBAR-->
                 <RelativeLayout
                         android:layout_width="7dp"
@@ -68,7 +84,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="5dp"
-                        android:text="ALBUM DRUMB BAND"
+                        android:text="ALBUM DRUMBAND"
                         android:textColor="#000"
                         android:textSize="10sp"
                         android:textStyle="bold" />
@@ -80,7 +96,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="5dp"
-                        android:text="LOMBA DRUMB BAND 2019"
+                        android:text="Drumband, disebut juga orkes barisan (bahasa Inggris: drum band, marching band) adalah sekelompok barisan orang yang memainkan satu atau beberapa lagu dengan menggunakan sejumlah kombinasi alat musik (tiup, perkusi, dan sejumlah instrumen pit) secara bersama-sama."
                         android:textColor="#000"
                         android:textSize="10sp" />
 
