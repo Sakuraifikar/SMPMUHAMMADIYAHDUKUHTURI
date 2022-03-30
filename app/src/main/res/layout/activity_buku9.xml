@@ -38,7 +38,7 @@
                         android:layout_marginTop="30dp"
                         android:layout_marginBottom="10dp"
                         android:gravity="center_vertical"
-                        android:text="KATALOG BUKU KELAS XI"
+                        android:text="KATALOG BUKU KELAS IX"
                         android:textColor="@color/white"
                         android:textSize="25sp"
                         android:textStyle="bold" />
