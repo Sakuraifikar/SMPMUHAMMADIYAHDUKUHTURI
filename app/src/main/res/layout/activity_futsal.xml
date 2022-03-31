@@ -29,7 +29,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tapaksuci" />
+                        android:src="@drawable/drum" />
             </RelativeLayout>
             <!--        awal isi-->
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -50,6 +50,7 @@
                         tools:ignore="MissingConstraints">
 
                     <androidx.cardview.widget.CardView
+                            app:cardBackgroundColor="#F44336"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_rowWeight="1"
@@ -75,7 +76,7 @@
                                 android:layout_marginLeft="80dp"
                                 android:layout_marginTop="20dp"
                                 android:text="TAPAK SUCI"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
 
@@ -95,17 +96,10 @@
                                     android:textSize="15sp"
                                     android:textStyle="bold"
                                     android:text="PENGERTIAN TAPAK SUCI"
-                                    android:textColor="#000"/>
+                                    android:textColor="@color/white"/>
+
                             <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="15dp"
-                                    android:layout_marginTop="15dp"
-                                    android:layout_marginRight="15dp"
-                                    android:textSize="14sp"
-                                    android:textStyle="bold"
-                                    android:text="Secara Organis" />
-                            <TextView
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
@@ -114,31 +108,14 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu, setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS), yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian/alat dari organisasi lain yang ada di luar sekolah." />
-                            <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="15dp"
-                                    android:layout_marginRight="15dp"
-                                    android:textSize="14sp"
-                                    android:textStyle="bold"
-                                    android:text="Secara Fungsional" />
-                            <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="15dp"
-                                    android:layout_marginTop="15dp"
-                                    android:layout_marginBottom="15dp"
-                                    android:layout_marginRight="15dp"
-                                    android:textSize="13sp"
-                                    android:textStyle="normal"
-                                    android:text="Dalam rangka pelaksanaan kebijaksanaan pendidikan, khususnya dibidang pembinaan kesiswaan, arti yang terkandung lebih jauh dalam pengertian OSIS adalah sebagai salah satu dari empat jalur pembinaan kesiswaan, di samping ketiga jalur yang lain yaitu: latihan kepemimpinan, ekstrakurikuler, dan wawasan Wiyatamandala."/>
+                                    android:text="Drumben, disebut juga orkes barisan (bahasa Inggris: drum band, marching band) adalah sekelompok barisan orang yang memainkan satu atau beberapa lagu dengan menggunakan sejumlah kombinasi alat musik (tiup, perkusi, dan sejumlah instrumen pit) secara bersama-sama." />
 
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                            app:cardBackgroundColor="#FF5722"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_rowWeight="1"
@@ -161,9 +138,10 @@
                                     android:layout_marginTop="15dp"
                                     android:textSize="15sp"
                                     android:textStyle="bold"
-                                    android:text="TUJUAN DAN TUGAS TAPAK SUCI"
-                                    android:textColor="#000"/>
+                                    android:text="MANFAAT DAN FUNGSI TAPAK SUCI"
+                                    android:textColor="@color/white"/>
                             <TextView
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
@@ -171,48 +149,73 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="14sp"
                                     android:textStyle="bold"
-                                    android:text="Tujuan Osis" />
+                                    android:text="MANFAAT TAPAK SUCI" />
                             <TextView
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="1. Meningkatkan generasi penerus yang beriman dan bertaqwa"/>
+                                    android:text="1. Menumbuhkan Kerja sama"/>
                             <TextView
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="2. Memahami, menghargai lingkungan hidup dan nilai-nilai moral dalam mengambil keputusan yang tepat"/>
+                                    android:text="2. Menumbuhkan Tanggung jawab"/>
                             <TextView
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="3. Membangun landasan kepribadian yang kuat dan menghargai HAM dalam kontek kemajuan budaya bangsa"/>
+                                    android:text="3. Menumbuhkan Loyalitas"/>
+
                             <TextView
+                                    android:textColor="@color/white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:text="FUNGSI TAPAK SUCI" />
+                            <TextView
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="4. Membangun, mengembangkan wawasan kebangsaan dan rasa cinta tanah air dalam era globalisasi"/>
+                                    android:text="1. Fungsi Kedisiplinan"/>
                             <TextView
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="2. Fungsi Kesenian"/>
+                            <TextView
+                                    android:textColor="@color/white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:layout_marginBottom="15dp"
-                                    android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="5. Memperdalam sikap sportif, jujur, disiplin, bertanggung jawab, dan kerjasama secara mandiri, berpikir logis dan demokratis"/>
+                                    android:text="3. Fungsi Sosial"/>
 
                         </LinearLayout>
 
@@ -223,4 +226,5 @@
 
         </LinearLayout>
     </ScrollView>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
