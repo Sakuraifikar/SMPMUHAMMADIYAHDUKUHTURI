@@ -74,47 +74,43 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:gravity="center"
+                                    android:linksClickable="true"
+                                    android:onClick="mat7"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:gravity="center"
-                                        android:linksClickable="true"
-                                        android:onClick="mat7"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xmtk8s1"
+                                        android:layout_margin="10dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a10"
-                                            android:layout_margin="10dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="MATEMATIKA"
+                                        android:textColor="@color/white"
+                                        android:textSize="19dp"
+                                        android:textStyle="bold" />
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="MATEMATIKA"
-                                            android:textColor="@color/black"
-                                            android:textSize="19dp"
-                                            android:textStyle="bold" />
+                                <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="SEMESTER 1"
+                                        android:textSize="10dp" />
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="SEMESTER 1"
-                                            android:textSize="10dp" />
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -124,47 +120,42 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="mat72"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
+                                <ImageView
                                         android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="mat72"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:src="@drawable/xmtk8s2" />
 
-                                    <ImageView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:layout_margin="10dp"
-                                            android:src="@drawable/a3" />
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="MATEMATIKA"
+                                        android:layout_gravity="center"
+                                        android:textSize="19dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="MATEMATIKA"
-                                            android:layout_gravity="center"
-                                            android:textSize="19dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black"/>
+                                <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="SEMESTER 2"
+                                        android:textSize="10dp"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="SEMESTER 2"
-                                            android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -182,47 +173,42 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="ipa1kls7"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="ipa1kls7"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xipa8s1"
+                                        android:layout_margin="10dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a9"
-                                            android:layout_margin="10dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="IPA"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="IPA"
-                                            android:layout_gravity="center"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black"/>
+                                <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="SEMESTER 1"
+                                        android:textSize="10dp"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="SEMESTER 1"
-                                            android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -232,47 +218,42 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="ipa2kls7"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="ipa2kls7"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xipa8s2"
+                                        android:layout_margin="10dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a2"
-                                            android:layout_margin="10dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="IPA"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="IPA"
-                                            android:layout_gravity="center"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black"/>
+                                <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="SEMESTER 2"
+                                        android:textSize="10dp"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="SEMESTER 2"
-                                            android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -290,47 +271,42 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="pra1kls7"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="pra1kls7"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xpra8s1"
+                                        android:layout_margin="10dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a15"
-                                            android:layout_margin="10dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="PRAKARYA"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="PRAKARYA"
-                                            android:layout_gravity="center"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black"/>
+                                <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="SEMESTER 1"
+                                        android:textSize="10dp"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="SEMESTER 1"
-                                            android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -340,47 +316,42 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="pra2kls7"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="pra2kls7"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xpra8s2"
+                                        android:layout_margin="10dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a15"
-                                            android:layout_margin="10dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="PRAKARYA"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="PRAKARYA"
-                                            android:layout_gravity="center"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black"/>
+                                <TextView
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="SEMESTER 2"
+                                        android:textSize="10dp"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="SEMESTER 2"
-                                            android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -398,49 +369,43 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:gravity="center"
+                                    android:linksClickable="true"
+                                    android:onClick="indkls7"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:gravity="center"
-                                        android:linksClickable="true"
-                                        android:onClick="indkls7"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:src="@drawable/xbindo8" />
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:layout_margin="10dp"
-                                            android:src="@drawable/a1" />
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="BAHASA"
+                                        android:textColor="@color/white"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="BAHASA"
-                                            android:textColor="@color/black"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold" />
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="INDONESIA"
+                                        android:textColor="@color/white"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="INDONESIA"
-                                            android:textColor="#000"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold" />
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -450,49 +415,43 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:gravity="center"
+                                    android:linksClickable="true"
+                                    android:onClick="ingkls7"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:gravity="center"
-                                        android:linksClickable="true"
-                                        android:onClick="ingkls7"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:src="@drawable/xbing8" />
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:layout_margin="10dp"
-                                            android:src="@drawable/a8" />
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="BAHASA"
+                                        android:textColor="@color/white"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="BAHASA"
-                                            android:textColor="@color/black"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold" />
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="INGGRIS"
+                                        android:textColor="@color/white"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="INGGRIS"
-                                            android:textColor="#000"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold" />
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -510,40 +469,34 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="ppkn7"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="ppkn7"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xppkn8"
+                                        android:layout_marginBottom="20dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a6"
-                                            android:layout_marginBottom="20dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="PPKN"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="PPKN"
-                                            android:layout_gravity="center"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -553,40 +506,34 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="paikls7"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="paikls7"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xpai8"
+                                        android:layout_marginBottom="20dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a1"
-                                            android:layout_marginBottom="20dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="PAI"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="PAI"
-                                            android:layout_gravity="center"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -604,40 +551,34 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="penjas7"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="penjas7"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xpenjas8"
+                                        android:layout_marginBottom="20dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a2"
-                                            android:layout_marginBottom="20dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="PENJAS"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="PENJAS"
-                                            android:layout_gravity="center"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -647,49 +588,43 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="sbykls7"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="sbykls7"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xsenibud8"
+                                        android:layout_margin="10dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a6"
-                                            android:layout_margin="10dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="SENI"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white" />
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="SENI"
-                                            android:layout_gravity="center"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black" />
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="BUDAYA"
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:text="BUDAYA"
-                                            android:textStyle="bold"
-                                            android:textSize="20dp"
-                                            android:textColor="#000"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -708,40 +643,34 @@
                                 android:layout_margin="20dp"
                                 android:layout_weight="1">
 
-                            <androidx.cardview.widget.CardView
+                            <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                    android:layout_height="match_parent"
+                                    android:onClick="ipskls7"
+                                    android:autoLink="web"
+                                    android:clickable="true"
+                                    android:cursorVisible="true"
+                                    android:linksClickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
 
-                                <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:onClick="ipskls7"
-                                        android:autoLink="web"
-                                        android:clickable="true"
-                                        android:cursorVisible="true"
-                                        android:linksClickable="true"
-                                        android:gravity="center"
-                                        android:orientation="vertical">
+                                <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/xips8"
+                                        android:layout_marginBottom="20dp"/>
 
-                                    <ImageView
-                                            android:layout_width="100dp"
-                                            android:layout_height="100dp"
-                                            android:layout_gravity="center"
-                                            android:src="@drawable/a5"
-                                            android:layout_marginBottom="20dp"/>
+                                <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="IPS"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white"/>
 
-                                    <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="IPS"
-                                            android:layout_gravity="center"
-                                            android:textSize="20dp"
-                                            android:textStyle="bold"
-                                            android:textColor="@color/black"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </LinearLayout>
 
