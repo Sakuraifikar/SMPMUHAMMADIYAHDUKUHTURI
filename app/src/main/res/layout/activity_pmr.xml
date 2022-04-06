@@ -103,12 +103,12 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
-                                    android:layout_marginTop="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:layout_marginBottom="15dp"
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="Drumben, disebut juga orkes barisan (bahasa Inggris: drum band, marching band) adalah sekelompok barisan orang yang memainkan satu atau beberapa lagu dengan menggunakan sejumlah kombinasi alat musik (tiup, perkusi, dan sejumlah instrumen pit) secara bersama-sama." />
+                                    android:text="BTQ ini merupakan singkatan dari Bimbingan Tahfidz Qur'an yang diperuntukkan bagi mahasiswa/I yang sudah lancar membaca Al-Qur'an dan bisa menerapkan kaidah tajwid praktis dengan kriteria hasil penilaian : TT dan TM." />
 
                         </LinearLayout>
 
@@ -138,7 +138,7 @@
                                     android:layout_marginTop="15dp"
                                     android:textSize="15sp"
                                     android:textStyle="bold"
-                                    android:text="MANFAAT DAN FUNGSI BTQ"
+                                    android:text="MANFAAT DAN TUJUAN BTQ"
                                     android:textColor="@color/white"/>
                             <TextView
                                     android:textColor="@color/white"
@@ -158,7 +158,7 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="1. Menumbuhkan Kerja sama"/>
+                                    android:text="1. Meningkatkan kualitas Baca Tulis Al-Qur‟an"/>
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
@@ -167,7 +167,7 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="2. Menumbuhkan Tanggung jawab"/>
+                                    android:text="2. Meningkatkan semangat ibadah"/>
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
@@ -176,7 +176,7 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="3. Menumbuhkan Loyalitas"/>
+                                    android:text="3. Membentuk akhlaqul karimah"/>
 
                             <TextView
                                     android:textColor="@color/white"
@@ -187,25 +187,8 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="14sp"
                                     android:textStyle="bold"
-                                    android:text="FUNGSI BTQ" />
-                            <TextView
-                                    android:textColor="@color/white"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="15dp"
-                                    android:layout_marginRight="15dp"
-                                    android:textSize="13sp"
-                                    android:textStyle="normal"
-                                    android:text="1. Fungsi Kedisiplinan"/>
-                            <TextView
-                                    android:textColor="@color/white"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="15dp"
-                                    android:layout_marginRight="15dp"
-                                    android:textSize="13sp"
-                                    android:textStyle="normal"
-                                    android:text="2. Fungsi Kesenian"/>
+                                    android:text="TUJUAN BTQ" />
+
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
@@ -213,9 +196,10 @@
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
                                     android:layout_marginBottom="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="3. Fungsi Sosial"/>
+                                    android:text="Tujuan pembelajaran Baca Tulis Al-Qur‟an (BTQ) adalah untuk meningkatkan dan mempersiapkan sumber daya manusia sejak dini mulai kecakapan dalam membaca dan menulis huruf Al-Qur‟an yang nantinya diharapkan nilai-nilai Al-Qur‟an akan menjadi landasan moral, etika dan spiritual yang kokoh."/>
 
                         </LinearLayout>
 

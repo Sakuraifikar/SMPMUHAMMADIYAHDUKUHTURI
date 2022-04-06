@@ -103,7 +103,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
-                                    android:layout_marginTop="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:layout_marginBottom="15dp"
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
@@ -138,7 +138,7 @@
                                     android:layout_marginTop="15dp"
                                     android:textSize="15sp"
                                     android:textStyle="bold"
-                                    android:text="MANFAAT DAN FUNGSI DRUMBAND"
+                                    android:text="MANFAAT DAN TUJUAN DRUMBAND"
                                     android:textColor="@color/white"/>
                             <TextView
                                     android:textColor="@color/white"
@@ -187,25 +187,8 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="14sp"
                                     android:textStyle="bold"
-                                    android:text="FUNGSI DRUMBAND" />
-                            <TextView
-                                    android:textColor="@color/white"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="15dp"
-                                    android:layout_marginRight="15dp"
-                                    android:textSize="13sp"
-                                    android:textStyle="normal"
-                                    android:text="1. Fungsi Kedisiplinan"/>
-                            <TextView
-                                    android:textColor="@color/white"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="15dp"
-                                    android:layout_marginRight="15dp"
-                                    android:textSize="13sp"
-                                    android:textStyle="normal"
-                                    android:text="2. Fungsi Kesenian"/>
+                                    android:text="TUJUAN DRUMBAND" />
+
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
@@ -213,9 +196,10 @@
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
                                     android:layout_marginBottom="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="3. Fungsi Sosial"/>
+                                    android:text="Kegiatan drum band yang dilaksanakan di sekolah merupakan kegiatan kegiatan pendidikan diluar jam mata pelajaran yang bertujuan untuk mengembangkan bakat dan minat siswa, mengembangkan potensi yang dimiliki peserta didik."/>
 
                         </LinearLayout>
 

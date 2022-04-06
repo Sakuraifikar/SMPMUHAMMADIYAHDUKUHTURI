@@ -103,12 +103,12 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
-                                    android:layout_marginTop="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:layout_marginBottom="15dp"
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="Drumben, disebut juga orkes barisan (bahasa Inggris: drum band, marching band) adalah sekelompok barisan orang yang memainkan satu atau beberapa lagu dengan menggunakan sejumlah kombinasi alat musik (tiup, perkusi, dan sejumlah instrumen pit) secara bersama-sama." />
+                                    android:text="Gerakan Kepanduan Hizbul Wathan adalah salah satu organisasi otonom di lingkungan Persyarikatan Muhammadiyah. Ortom Muhammadiyah lainnya adalah: 'Aisyiyah, Nasyiatul 'Aisyiyah, Pemuda Muhammadiyah, Ikatan Mahasiswa Muhammadiyah, Tapak Suci Putera Muhammadiyah, dan Ikatan Pelajar Muhammadiyah." />
 
                         </LinearLayout>
 
@@ -138,7 +138,7 @@
                                     android:layout_marginTop="15dp"
                                     android:textSize="15sp"
                                     android:textStyle="bold"
-                                    android:text="MANFAAT DAN FUNGSI HW"
+                                    android:text="MANFAAT DAN TUJUAN HW"
                                     android:textColor="@color/white"/>
                             <TextView
                                     android:textColor="@color/white"
@@ -158,7 +158,7 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="1. Menumbuhkan Kerja sama"/>
+                                    android:text="1. Melalui jalur kepanduan ingin meningkatkan pendidikan angkatan muda putra ataupun putri menurut ajaran Islam."/>
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
@@ -167,7 +167,7 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="2. Menumbuhkan Tanggung jawab"/>
+                                    android:text="2. Mendidik angkatan muda putra dan putri agar menjadi manusia muslim yang berakhlak mulia, berbudi luhur sehat jasmani dan rohani."/>
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
@@ -176,7 +176,7 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="3. Menumbuhkan Loyalitas"/>
+                                    android:text="3. Mendidik angkatan muda putra dan putrid menjadi generasi yang taat beragama, berorganisasi, cerdas dan trampil."/>
 
                             <TextView
                                     android:textColor="@color/white"
@@ -187,35 +187,18 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="14sp"
                                     android:textStyle="bold"
-                                    android:text="FUNGSI HW" />
+                                    android:text="TUJUAN HW" />
+
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="1. Fungsi Kedisiplinan"/>
-                            <TextView
-                                    android:textColor="@color/white"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="15dp"
-                                    android:layout_marginRight="15dp"
-                                    android:textSize="13sp"
-                                    android:textStyle="normal"
-                                    android:text="2. Fungsi Kesenian"/>
-                            <TextView
-                                    android:textColor="@color/white"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="15dp"
-                                    android:layout_marginRight="15dp"
-                                    android:layout_marginBottom="15dp"
-                                    android:textSize="13sp"
-                                    android:textStyle="normal"
-                                    android:text="3. Fungsi Sosial"/>
+                                    android:text="untuk mewujudkan masyarakat utama, adil dan makmur yang diridlai Allah dengan jalan menegakkan dan menjunjung tinggi Agama Islam lewat jalur pendidikan kepanduan."/>
 
                         </LinearLayout>
 

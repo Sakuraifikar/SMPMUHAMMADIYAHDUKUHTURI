@@ -103,12 +103,12 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
-                                    android:layout_marginTop="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:layout_marginBottom="15dp"
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="Drumben, disebut juga orkes barisan (bahasa Inggris: drum band, marching band) adalah sekelompok barisan orang yang memainkan satu atau beberapa lagu dengan menggunakan sejumlah kombinasi alat musik (tiup, perkusi, dan sejumlah instrumen pit) secara bersama-sama." />
+                                    android:text="Perguruan Seni Beladiri Indonesia Tapak Suci Putera Muhammadiyah atau disingkat Tapak Suci, adalah sebuah aliran, perguruan, dan organisasi pencak silat yang merupakan anggota IPSI. Tapak Suci termasuk dalam 10 Perguruan Historis IPSI, yaitu perguruan yang menunjang tumbuh dan berkembangnya IPSI sebagai organisasi."/>
 
                         </LinearLayout>
 
@@ -138,7 +138,7 @@
                                     android:layout_marginTop="15dp"
                                     android:textSize="15sp"
                                     android:textStyle="bold"
-                                    android:text="MANFAAT DAN FUNGSI TAPAK SUCI"
+                                    android:text="MANFAAT DAN TUJUAN TAPAK SUCI"
                                     android:textColor="@color/white"/>
                             <TextView
                                     android:textColor="@color/white"
@@ -156,9 +156,10 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="1. Menumbuhkan Kerja sama"/>
+                                    android:text="1. Melatih Tubuh Secara Total"/>
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
@@ -167,7 +168,7 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="2. Menumbuhkan Tanggung jawab"/>
+                                    android:text="2. Meningkatkan Kepercayaan Diri, Konsentrasi, dan Moral"/>
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
@@ -176,7 +177,7 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="3. Menumbuhkan Loyalitas"/>
+                                    android:text="3. Meningkatkan Kesehatan Jantung"/>
 
                             <TextView
                                     android:textColor="@color/white"
@@ -187,25 +188,31 @@
                                     android:layout_marginRight="15dp"
                                     android:textSize="14sp"
                                     android:textStyle="bold"
-                                    android:text="FUNGSI TAPAK SUCI" />
+                                    android:text="TUJUAN TAPAK SUCI" />
+
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="1. Fungsi Kedisiplinan"/>
+                                    android:text="1. Mendidik serta membina ketangkasan dan ketrampilan Pencak Silat sebagai bela diri , seni , olah raga dan budaya bangsa Indoonesia"/>
+
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="2. Fungsi Kesenian"/>
+                                    android:text="2. Memelihara dan mengembangkan kemurnian Pencak Silat Aliran TAPAK SUCI sebagai
+budaya bangsa yang luhur daan bermoral sesuai dan tidak menyimpang dari ajaran
+Islam serta bersih dari syirik dan menyesatkan."/>
                             <TextView
                                     android:textColor="@color/white"
                                     android:layout_width="wrap_content"
@@ -213,9 +220,10 @@
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="15dp"
                                     android:layout_marginBottom="15dp"
+                                    android:layout_marginTop="5dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
-                                    android:text="3. Fungsi Sosial"/>
+                                    android:text="3. Mendidik dan membina anggota untuk menjadi kader Muhammadiyah"/>
 
                         </LinearLayout>
 
