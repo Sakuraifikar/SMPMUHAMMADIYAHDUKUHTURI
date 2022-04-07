@@ -78,12 +78,12 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
+                                    android:onClick="mat8s1"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="mat7"
                                     android:orientation="vertical">
 
                                 <ImageView
@@ -123,7 +123,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat72"
+                                    android:onClick="mat8s2"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -176,7 +176,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipa1kls7"
+                                    android:onClick="ipa1kls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -221,7 +221,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipa2kls7"
+                                    android:onClick="ipa2kls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -274,7 +274,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="pra1kls7"
+                                    android:onClick="pra1kls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -319,7 +319,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="pra2kls7"
+                                    android:onClick="pra2kls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -372,12 +372,12 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
+                                    android:onClick="indkls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="indkls7"
                                     android:orientation="vertical">
 
                                 <ImageView
@@ -418,12 +418,12 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
+                                    android:onClick="ingkls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="ingkls7"
                                     android:orientation="vertical">
 
                                 <ImageView
@@ -472,7 +472,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ppkn7"
+                                    android:onClick="ppkn8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -509,7 +509,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="paikls7"
+                                    android:onClick="paikls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -554,7 +554,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="penjas7"
+                                    android:onClick="penjas8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -591,7 +591,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="sbykls7"
+                                    android:onClick="sbykls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -646,7 +646,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipskls7"
+                                    android:onClick="ipskls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"

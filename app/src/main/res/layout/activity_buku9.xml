@@ -78,19 +78,19 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
+                                    android:onClick="mat9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="mat7"
                                     android:orientation="vertical">
 
                                 <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xmtk8s1"
+                                        android:src="@drawable/s6"
                                         android:layout_margin="10dp"/>
 
                                 <TextView
@@ -101,14 +101,6 @@
                                         android:textColor="@color/white"
                                         android:textSize="19dp"
                                         android:textStyle="bold" />
-
-                                <TextView
-                                        android:textColor="@color/white"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 1"
-                                        android:textSize="10dp" />
 
                             </LinearLayout>
 
@@ -123,7 +115,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat72"
+                                    android:onClick="mat9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -136,7 +128,7 @@
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/xmtk8s2" />
+                                        android:src="@drawable/s6" />
 
                                 <TextView
                                         android:layout_width="wrap_content"
@@ -146,14 +138,6 @@
                                         android:textSize="19dp"
                                         android:textStyle="bold"
                                         android:textColor="@color/white"/>
-
-                                <TextView
-                                        android:textColor="@color/white"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 2"
-                                        android:textSize="10dp"/>
 
                             </LinearLayout>
 
@@ -176,7 +160,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipa1kls7"
+                                    android:onClick="ipa1kls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -188,7 +172,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xipa8s1"
+                                        android:src="@drawable/s2"
                                         android:layout_margin="10dp"/>
 
                                 <TextView
@@ -221,7 +205,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipa2kls7"
+                                    android:onClick="ipa2kls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -233,7 +217,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xipa8s2"
+                                        android:src="@drawable/s2"
                                         android:layout_margin="10dp"/>
 
                                 <TextView
@@ -274,7 +258,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="pra1kls7"
+                                    android:onClick="pra1kls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -286,7 +270,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xpra8s1"
+                                        android:src="@drawable/s8"
                                         android:layout_margin="10dp"/>
 
                                 <TextView
@@ -319,7 +303,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="pra2kls7"
+                                    android:onClick="pra2kls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -331,7 +315,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xpra8s2"
+                                        android:src="@drawable/s4"
                                         android:layout_margin="10dp"/>
 
                                 <TextView
@@ -372,12 +356,12 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
+                                    android:onClick="bhsind9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="indkls7"
                                     android:orientation="vertical">
 
                                 <ImageView
@@ -385,7 +369,7 @@
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/xbindo8" />
+                                        android:src="@drawable/s5" />
 
                                 <TextView
                                         android:layout_width="wrap_content"
@@ -418,12 +402,12 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
+                                    android:onClick="ingkls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="ingkls7"
                                     android:orientation="vertical">
 
                                 <ImageView
@@ -431,7 +415,7 @@
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/xbing8" />
+                                        android:src="@drawable/s9" />
 
                                 <TextView
                                         android:layout_width="wrap_content"
@@ -472,7 +456,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ppkn7"
+                                    android:onClick="ppkn9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -484,7 +468,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xppkn8"
+                                        android:src="@drawable/s1"
                                         android:layout_marginBottom="20dp"/>
 
                                 <TextView
@@ -509,7 +493,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="paikls7"
+                                    android:onClick="paikls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -521,7 +505,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xpai8"
+                                        android:src="@drawable/s10"
                                         android:layout_marginBottom="20dp"/>
 
                                 <TextView
@@ -554,7 +538,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="penjas7"
+                                    android:onClick="penjas9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -566,7 +550,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xpenjas8"
+                                        android:src="@drawable/s3"
                                         android:layout_marginBottom="20dp"/>
 
                                 <TextView
@@ -591,7 +575,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="sbykls7"
+                                    android:onClick="sbykls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -603,7 +587,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xsenibud8"
+                                        android:src="@drawable/s7"
                                         android:layout_margin="10dp"/>
 
                                 <TextView
@@ -646,7 +630,7 @@
                             <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipskls7"
+                                    android:onClick="ipskls9"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
@@ -658,7 +642,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/xips8"
+                                        android:src="@drawable/s11"
                                         android:layout_marginBottom="20dp"/>
 
                                 <TextView

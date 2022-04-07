@@ -15,58 +15,53 @@ public class Buku9Activity extends AppCompatActivity {
         setContentView(R.layout.activity_buku9);
     }
 
-    public void mat7(View view) {
-        goToUrl("https://drive.google.com/file/d/1QXpoCmuE9qx2lxvllD5u2nntsGpC6zUQ/view?usp=sharing");
+    public void mat9(View view) {
+        goToUrl("https://drive.google.com/file/d/1WFP_KccRUPb3CyKmwzvb9f-AAgwM45Wu/view?usp=sharing");
     }
 
-    public void mat72(View view) {
-        goToUrl("https://drive.google.com/file/d/1R5h8H9nmJU72m9WITVZmBLdqwdnie0eV/view?usp=sharing");
+    public void bhsind9(View view) {
+        goToUrl("https://drive.google.com/file/d/1Vv6yHaVZJRKk8hXtds1UER6s3xvRsDa2/view?usp=sharing");
     }
 
-    public void ipa1kls7(View view) {
-        goToUrl("https://drive.google.com/file/d/1IVlMAu5WvVR5WCMfXqzqXmyJfEN1KViQ/view?usp=sharing");
+    public void ipa1kls9(View view) {
+        goToUrl("https://drive.google.com/file/d/1W3tEbXUi71e6Aipc5WI_elJcMgdnI5n-/view?usp=sharing");
     }
 
-    public void ipa2kls7(View view) {
-        goToUrl("https://drive.google.com/file/d/1QNjkCap3sIVcqhwax4sjU6tJJdrNNi4I/view?usp=sharing");
+    public void ipa2kls9(View view) {
+        goToUrl("https://drive.google.com/file/d/1W5l5DT3coLDPr8EpLCb0AmogF3fztWjB/view?usp=sharing");
     }
 
-    public void pra1kls7(View view) {
-        goToUrl("https://drive.google.com/file/d/1QDSKJmU-TBtyPsthsk4xDOcyePCDqlMi/view?usp=sharing");
+    public void pra1kls9(View view) {
+        goToUrl("https://drive.google.com/file/d/1WZ7UdHG4hK3GEnO5E9nCadmHJm0pcNOe/view?usp=sharing");
     }
 
-    public void pra2kls7(View view) {
-        goToUrl("https://drive.google.com/file/d/1Qi51Er20t455i5hlLUDs91e6r8L1OW3L/view?usp=sharing");
+    public void pra2kls9(View view) {
+        goToUrl("https://drive.google.com/file/d/1WZ8ZK5q72ypgyZe5PiW5Y0ClEmDdchtc/view?usp=sharing");
     }
 
-    public void indkls7(View view) {
-        goToUrl("https://drive.google.com/file/d/1QJi9YctnB1aac2WLgm7j-7jEA-vzfwDQ/view?usp=sharing");
+    public void paikls9(View view) {
+        goToUrl("https://drive.google.com/file/d/1WIH4l0vlpgcjV20f-CJrMkc33T5tP7WY/view?usp=sharing");
     }
 
-    public void ingkls7(View view) {
-        goToUrl("https://drive.google.com/file/d/1QMN-DaOtw7rA5IzRLBCLsljKgvxc3hMs/view?usp=sharing");
+    public void ingkls9(View view) {
+        goToUrl("https://drive.google.com/file/d/1W2a1N9C-TdEJn7JWZenO9rDLZwkuEPir/view?usp=sharing");
     }
 
-    public void ppkn7(View view) {
-        goToUrl("https://drive.google.com/file/d/1IHQihHJPuT2Wjv6whNvwtgcXDXX_pjMO/view?usp=sharing");
+    public void ppkn9(View view) {
+        goToUrl("https://drive.google.com/file/d/1WZ7IbXuuBZzG0pO6qnf_vnDWC-D5qGU_/view?usp=sharing");
     }
 
-    public void paikls7(View view) {
-        goToUrl("https://drive.google.com/file/d/1QbEAk6y-Veee89ga4J9AQyC1xJ-4fmfo/view?usp=sharing");
+    public void ipskls9(View view) {
+        goToUrl("https://drive.google.com/file/d/1WlvCUen0MMEGq8lrxVucwOkntDJwYtPB/view?usp=sharing");
     }
 
-    public void penjas7(View view) {
-        goToUrl("https://drive.google.com/file/d/1IH2zX5IZNIUUjL-xHT3eOS2HE8QJDipw/view?usp=sharing");
+    public void penjas9(View view) {
+        goToUrl("https://drive.google.com/file/d/1WR34GStdgTftGtMKH6nFR-dnzkwNMKNd/view?usp=sharing");
     }
 
-    public void sbykls7(View view) {
-        goToUrl("https://drive.google.com/file/d/1QkM2zZghoT0BJUKLZF2Bc42hwqwiy3G0/view?usp=sharing");
+    public void sbykls9(View view) {
+        goToUrl("https://drive.google.com/file/d/1Wa1O_jc7H7ldkFhEv-rjQApn33T16dC7/view?usp=sharing");
     }
-
-    public void ipskls7(View view) {
-        goToUrl("https://drive.google.com/file/d/1QTT70ghMSve9x1N8VKC14BUzWfJJhcrR/view?usp=sharing");
-    }
-
 
     private void goToUrl(String url) {
         Uri uriUrl = Uri.parse(url);
