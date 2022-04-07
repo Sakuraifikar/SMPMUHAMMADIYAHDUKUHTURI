@@ -96,7 +96,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="5dp"
-                        android:text=" Tilawah secara bahasa artinya bacaan \n Tahfizh berasal dari bahasa arab dengan akar kata ha fa zha حفظ yang mempunyai arti menghafal, menjaga, memelihara. /n"
+                        android:text=" Tilawah secara bahasa artinya bacaan \n Tahfizh berasal dari bahasa arab dengan akar kata ha fa zha حفظ yang mempunyai arti menghafal, menjaga, memelihara."
                         android:textColor="#000"
                         android:textSize="10sp" />
 
