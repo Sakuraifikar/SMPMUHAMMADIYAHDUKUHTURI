@@ -55,7 +55,7 @@
                             android:textColor="#000"
                             android:textSize="18sp"
                             android:textStyle="bold"
-                            android:text="MASJID"/>
+                            android:text="MUSHOLA"/>
 
 
 
@@ -102,7 +102,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginTop="60dp"
                                             android:layout_marginRight="12dp"
-                                            android:src="@drawable/masjiddarusalam"/>
+                                            android:src="@drawable/mushola"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -120,7 +120,7 @@
                                 android:layout_marginTop="20dp"
                                 android:layout_marginRight="5dp"
                                 android:textColor="#000"
-                                android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                                android:text="Musala atau Mushalla adalah ruangan, tempat atau rumah kecil menyerupai masjid yang digunakan sebagai tempat shalat dan mengaji bagi umat Islam. Mushalla juga sering disebut dengan surau atau langgar di beberapa daerah."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -200,7 +200,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginTop="60dp"
                                             android:layout_marginRight="12dp"
-                                            android:src="@drawable/labkomputer"/>
+                                            android:src="@drawable/labkomp"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -218,7 +218,7 @@
                                 android:layout_marginTop="20dp"
                                 android:layout_marginRight="5dp"
                                 android:textColor="#000"
-                                android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                                android:text="Laboratorium komputer adalah tempat riset ilmiah, eksperimen, pengukuran ataupun pelatihan ilmiah yang berhubungan dengan ilmu komputer dan memiliki beberapa komputer dalam satu jaringan untuk penggunaan oleh kalangan tertentu."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -315,7 +315,7 @@
                                 android:layout_marginTop="20dp"
                                 android:layout_marginRight="5dp"
                                 android:textColor="#000"
-                                android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                                android:text="Usaha Kesehatan Sekolah disingkat UKS atau Unit Kesehatan Sekolah adalah program pemerintah untuk meningkatkan pelayanan kesehatan, pendidikan kesehatan dan pembinaan lingkungan sekolah sehat atau kemampuan hidup sehat bagi warga sekolah."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
