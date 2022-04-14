@@ -17,7 +17,7 @@
                 android:layout_height="140dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/logosmp"/>
+                android:src="@drawable/logosmpku"/>
 
         <TextView
                 android:layout_width="wrap_content"

@@ -29,7 +29,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/drum" />
+                        android:src="@drawable/pancak1" />
             </RelativeLayout>
             <!--        awal isi-->
             <androidx.constraintlayout.widget.ConstraintLayout

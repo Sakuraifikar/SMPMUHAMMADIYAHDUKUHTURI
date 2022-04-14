@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/gambarburik"
+        android:background="@drawable/langit"
         tools:context=".FasilitasActivity">
 
     <ScrollView
@@ -28,6 +28,7 @@
                     android:rowCount="2">
 
                 <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#8BC34A"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_rowWeight="1"
@@ -84,7 +85,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginLeft="12dp"
                                             android:layout_marginTop="60dp"
-                                            android:src="@drawable/mus"/>
+                                            android:src="@drawable/mus" />
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -102,7 +103,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginTop="60dp"
                                             android:layout_marginRight="12dp"
-                                            android:src="@drawable/mushola"/>
+                                            android:src="@drawable/mus"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -119,13 +120,14 @@
                                 android:layout_marginLeft="5dp"
                                 android:layout_marginTop="20dp"
                                 android:layout_marginRight="5dp"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:text="Musala atau Mushalla adalah ruangan, tempat atau rumah kecil menyerupai masjid yang digunakan sebagai tempat shalat dan mengaji bagi umat Islam. Mushalla juga sering disebut dengan surau atau langgar di beberapa daerah."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#4CAF50"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_rowWeight="1"
@@ -217,12 +219,13 @@
                                 android:layout_marginLeft="5dp"
                                 android:layout_marginTop="20dp"
                                 android:layout_marginRight="5dp"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:text="Laboratorium komputer adalah tempat riset ilmiah, eksperimen, pengukuran ataupun pelatihan ilmiah yang berhubungan dengan ilmu komputer dan memiliki beberapa komputer dalam satu jaringan untuk penggunaan oleh kalangan tertentu."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
+                        app:cardBackgroundColor="#CDDC39"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_rowWeight="1"
@@ -279,7 +282,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginLeft="12dp"
                                             android:layout_marginTop="60dp"
-                                            android:src="@drawable/uks"/>
+                                            android:src="@drawable/iyadehngabs"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -297,7 +300,7 @@
                                             android:layout_height="200dp"
                                             android:layout_marginTop="60dp"
                                             android:layout_marginRight="12dp"
-                                            android:src="@drawable/uks"/>
+                                            android:src="@drawable/iyadehngabs"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -314,7 +317,7 @@
                                 android:layout_marginLeft="5dp"
                                 android:layout_marginTop="20dp"
                                 android:layout_marginRight="5dp"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:text="Usaha Kesehatan Sekolah disingkat UKS atau Unit Kesehatan Sekolah adalah program pemerintah untuk meningkatkan pelayanan kesehatan, pendidikan kesehatan dan pembinaan lingkungan sekolah sehat atau kemampuan hidup sehat bagi warga sekolah."/>
 
                     </LinearLayout>

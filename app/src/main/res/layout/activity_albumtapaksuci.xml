@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".AlbumdrumbandActivity"
+        tools:context=".AlbumtapaksuciActivity"
         android:background="@drawable/lur">
 
     <LinearLayout
@@ -36,7 +36,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            android:src="@drawable/drum" />
+                            android:src="@drawable/suci" />
                 </LinearLayout>
                 <!--                TUTUP GAMBAR 1-->
 
@@ -51,7 +51,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            android:src="@drawable/drumband2" />
+                            android:src="@drawable/tapak2" />
                 </LinearLayout>
                 <!--                TUTUP GAMBAR 2-->
 
@@ -84,7 +84,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="5dp"
-                        android:text="ALBUM DRUMBAND"
+                        android:text="ALBUM TAPAK SUCI"
                         android:textColor="#000"
                         android:textSize="10sp"
                         android:textStyle="bold" />
@@ -96,7 +96,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="5dp"
-                        android:text="Drumband, disebut juga orkes barisan (bahasa Inggris: drum band, marching band) adalah sekelompok barisan orang yang memainkan satu atau beberapa lagu dengan menggunakan sejumlah kombinasi alat musik (tiup, perkusi, dan sejumlah instrumen pit) secara bersama-sama."
+                        android:text="Perguruan Seni Beladiri Indonesia Tapak Suci Putera Muhammadiyah atau disingkat Tapak Suci, adalah sebuah aliran, perguruan, dan organisasi pencak silat yang merupakan anggota IPSI. Tapak Suci termasuk dalam 10 Perguruan Historis IPSI, yaitu perguruan yang menunjang tumbuh dan berkembangnya IPSI sebagai organisasi."
                         android:textColor="#000"
                         android:textSize="10sp" />
 

@@ -28,4 +28,9 @@ public class GaleriActivity extends AppCompatActivity {
         Intent intent = new Intent(GaleriActivity.this, AlbumkegiatanActivity.class);
         startActivity(intent);
     }
+
+    public void empat(View view) {
+        Intent intent = new Intent(GaleriActivity.this, AlbumtapaksuciActivity.class);
+        startActivity(intent);
+    }
 }
